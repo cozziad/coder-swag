@@ -13,6 +13,8 @@
 		755B0BA722C2FAAB0032D803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 755B0BA622C2FAAB0032D803 /* Assets.xcassets */; };
 		755B0BAA22C2FAAB0032D803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 755B0BA822C2FAAB0032D803 /* LaunchScreen.storyboard */; };
 		755B0BB522C3AC500032D803 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755B0BB422C3AC500032D803 /* CategoryCell.swift */; };
+		755B0BB722C3E71E0032D803 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755B0BB622C3E71E0032D803 /* Category.swift */; };
+		755B0BBA22C3E8470032D803 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755B0BB922C3E8470032D803 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		755B0BA922C2FAAB0032D803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		755B0BAB22C2FAAB0032D803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		755B0BB422C3AC500032D803 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		755B0BB622C3E71E0032D803 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		755B0BB922C3E8470032D803 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		755B0B9E22C2FAAA0032D803 /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				755B0BB822C3E8220032D803 /* Services */,
 				755B0BB322C3ABF80032D803 /* Views */,
 				755B0BB222C3ABE80032D803 /* Model */,
 				755B0BB122C2FAF50032D803 /* Controller */,
@@ -79,6 +84,7 @@
 		755B0BB222C3ABE80032D803 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				755B0BB622C3E71E0032D803 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				755B0BB422C3AC500032D803 /* CategoryCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		755B0BB822C3E8220032D803 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				755B0BB922C3E8470032D803 /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +179,8 @@
 				755B0BA222C2FAAA0032D803 /* CategoriesViewController.swift in Sources */,
 				755B0BA022C2FAAA0032D803 /* AppDelegate.swift in Sources */,
 				755B0BB522C3AC500032D803 /* CategoryCell.swift in Sources */,
+				755B0BB722C3E71E0032D803 /* Category.swift in Sources */,
+				755B0BBA22C3E8470032D803 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
